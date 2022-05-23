@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ preview ]
+    branches: [ release ]
   pull_request:
-    branches: [ preview ]
+    branches: [ release ]
 
   workflow_dispatch:
 
